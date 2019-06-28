@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 
 //Minhas importaçãoes daqui para baixo.
 import { PhotosModule } from './photos/photos.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -14,7 +15,8 @@ import { PhotosModule } from './photos/photos.module';
   ],
   imports: [
     BrowserModule,
-    PhotosModule
+    PhotosModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
