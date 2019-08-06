@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 //Minhas importaçãoes daqui para baixo.
 import { PhotosModule } from './photos/photos.module';
 import { HttpClientModule } from '@angular/common/http';
+import { PhotoListComponent } from './photo-list/photo-list.component';
 
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PhotoListComponent
   ],
   imports: [
     BrowserModule,
